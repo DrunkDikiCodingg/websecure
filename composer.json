@@ -1,0 +1,19 @@
+{
+  "name": "hew86i/websecure",
+  "authors": [
+    {
+      "name": "hew86i",
+      "email": "h14030@gmail.com"
+    }
+  ],
+  "require": {
+    "ext-pdo": "*",
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Core\\": "Core/",
+      "Http\\": "Http/"
+    }
+  }
+}
